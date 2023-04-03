@@ -1,0 +1,24 @@
+{
+  "name": "SwiftUIPod",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftUIPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "git@github.com:841766048/SwiftUIPod.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "841766048": "841766048@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:841766048/SwiftUIPod.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "SwiftUIPod/**/*",
+  "swift_version": "5.0"
+}

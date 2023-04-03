@@ -21,17 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/841766048/SwiftUIPod'
+  s.homepage         = 'git@github.com:841766048/SwiftUIPod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '841766048' => '841766048@qq.com' }
-  s.source           = { :git => 'https://github.com/841766048/SwiftUIPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:841766048/SwiftUIPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'SwiftUIPod/Classes/**/*'
-  
+  s.swift_version = '5.0'
+  # 系统版本
+  s.ios.deployment_target = '14.0'
+  s.source_files = 'SwiftUIPod/**/*'
   # s.resource_bundles = {
   #   'SwiftUIPod' => ['SwiftUIPod/Assets/*.png']
   # }
